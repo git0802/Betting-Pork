@@ -1,0 +1,45 @@
+// #1aa9e7
+$primary: rgb(26, 169, 231);
+// #2D3035 = rgba(45, 48, 53, 1)
+$secondary: rgba(45, 48, 53, 1);
+
+// bg mobile
+$color3: #07243A;
+
+$bg_loadmore_hover: rgb(255,255,255,0.1);
+
+$background-button-primary : linear-gradient(100.15deg, #FF3D57 0%, #BC2135 100%);
+
+$swiper_pagination_active_color : #FFA900;
+
+$panel_header : transparent;
+$panel_subheader : rgba(255,255,255,0.05);
+$background_web : #24262B;
+$background_modal : #092E49;
+
+$button_menu_active: $secondary;
+
+$border : transparent;
+$border_hover : $primary;
+$border_error : $primary;
+
+$card_game : #0B2C44;
+$bg_card_game_hover : rgba(0,88,128,0.9);
+$card_game_blur : rgba(11,44,68,0.75);
+
+$rdrSelected: #1aa9e7;
+$rdrDayNumber: #fff;
+$rdrDayDisabled_background: #0b2c44;
+$rdrDayDisabled_color: #14354d;
+$rdrDayActive_background: #1aa9e7;
+$rdrDayDisabled: #3d5465;
+$rdrDayPassive: #3d5465;
+$rdrMonthAndYearPickers_color: #fff;
+$rdrMonthAndYearPickers_background: #0c2d46;
+
+$scrollbar_track: #042238;
+$scrollbar_thumb: #d3f2ff33;
+
+:export  {
+    swiper_pagination_active_color: $swiper_pagination_active_color;
+}

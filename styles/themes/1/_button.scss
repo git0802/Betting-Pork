@@ -1,0 +1,144 @@
+@import "./color";
+
+.btn_primary {
+  background: rgb(26, 169, 231);
+  color: white;
+
+  &:hover {
+    background: #0086bf;
+  }
+}
+
+.btn_deposit {
+  background: rgb(255, 169, 0);
+  color: white;
+
+  &:hover {
+    background: rgb(255, 122, 0);
+  }
+}
+
+.btn_secondary,
+.btn_cancel,
+.btn_loadmore {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.btn_featured {
+  background-color: #d3f2ff33;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  &:active {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+.btn_featured1_active {
+  background-color: #1aa9e7;
+}
+.btn_featured2_active {
+  background-color: #b52be6;
+}
+.btn_featured3_active {
+  background-color: #e0a408;
+}
+
+.btn_slider_custome {
+  background-color: rgba(7, 36, 58, 0.6);
+  color: white;
+  transition: all ease-in-out 200ms;
+  @media screen and (min-width: 768px) {
+    &:hover {
+      background-color: rgba(7, 36, 58, 0.8);
+      color: white;
+    }
+  }
+}
+
+// navbar
+.bg_navbar_mobile {
+  background-color: #032635;
+  box-shadow: 0px -8px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar_item_mobile {
+  color: white;
+}
+.navbar_item_mobile_active {
+  color: #ffcc24;
+}
+.navbar_icon_game_type {
+  color: #ffcc24;
+}
+.btn_navbar_game {
+  color: white;
+}
+.btn_navbar_game_open {
+  color: #ffcc24;
+}
+
+// slider
+.bg_btn_prev_carousel {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.bg_btn_prev_carousel_disable {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(211, 242, 255, 0.2);
+}
+
+.bg_btn_see_all {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.bg_blur_swiper_custome {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 22, 37, 0) 0%,
+    rgba(0, 22, 37, 0.56) 35.31%,
+    #001525 54.39%
+  );
+}
+
+.btn_wallet_add_subs {
+  background-color: #294860;
+  &:hover {
+    background-color: rgb(41 72 96 / 0.8);
+  }
+}
+
+.btn_wallet_selected_nominal {
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgba(211,242,255,0.1);
+  border:1px solid rgba(211, 242, 255, 0.2);
+
+  &.active{
+    background-color: rgb(255, 199, 0, 0.1);
+    color: #FFC700;
+    border:1px solid #FFC700;
+  }
+  &:active{
+    transform: translateY(4px);
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  }
+  &:hover {
+    background-color: rgb(255, 199, 0, 0.1);
+    border-color: #FFC700;
+    color: #FFC700;
+  }
+}

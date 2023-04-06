@@ -1,0 +1,12 @@
+{
+  "text-deposit-header": "Deposit Saldo Member",
+  "text-deposit-history-header": "Deposit History",
+  "button-deposit": "Kirim Deposit",
+  "button-view": "action",
+  "deposit-confirm-text": "Confirm Details",
+  "text-confirm-request": "Saya Sudah Transfer",
+  "deposit-submitted-text": "Deposit Submitted!",
+  "deposit-failed-text": "Deposit failed!",
+  "deposit-information-text": "Your deposit will approve in approximately within 2-3 minutes",
+  "text-view-request": "View Transaction History"
+}

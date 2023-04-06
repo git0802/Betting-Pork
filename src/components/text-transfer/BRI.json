@@ -1,0 +1,57 @@
+{
+  "name": "BRI",
+  "data": [
+    {
+      "title": "BRIMO --- !!! ---",
+      "type": "M-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login di Aplikasi BRImo",
+        "Pilih Menu Transfer > Tambah Penerima > Bank BRI",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan PIN BRImo",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "BRI I-BANKING --- !!! ---",
+      "type": "I-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login Internet Banking",
+        "Pilih Menu Transfer > Transfer Sesama BRI",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan Password",
+        "Klik Permintaan M-Token BRI",
+        "Masukan M-Token Dari SMS BRI",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "BRI ATM --- !!! ---",
+      "type": "ATM",
+      "rekening": 147852369,
+      "step": [
+        "Masukan Kartu ATM dan PIN Anda",
+        "Pilih Menu Transaksi Lainnya > Transfer",
+        "Masukan Kode 002 + Nomor Rekening BRI ($rekening)",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "002",
+      "massage": "*Kode bank di butuhkan jika Bank Lain transfer ke Bank BRI"
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+@use "../../submenuitem" as sm;
+@import "./color";
+
+:export {
+  primaryColor: $primary;
+}
+
+body {
+  font-family: "outfit";
+  background-color: $background_web;
+}
+
+// header type 2
+.bg_header2_marquee {
+  background: #271F31;
+}
+.bg_header2_top {
+  background-color: #271F31;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.bg_header2_bottom_cont {
+  background: linear-gradient(to right, #271F31 0%, #271F31 50%, #2B2335 50%, #2B2335 100%);
+}
+.bg_header2_bottom {
+  background: #271F31;
+}
+.bg_header2_bottom_search {
+  position: relative;
+  background-color: #2B2335;
+  &::before {
+    position: absolute;
+    content: "";
+    border-bottom-width: 77px;
+    border-bottom-color: #2B2335;
+    border-left-width: 77px;
+    border-left-color: transparent;
+    left: -76px;
+  }
+}
+
+.background_web {
+  background: $background_web;
+}
+
+.background_header {
+  background: $panel_header;
+}
+
+.background_panel {
+  background: $panel_subheader;
+}
+
+.background_subheader {
+  background: $panel_subheader;
+  border: 0px solid $border_secondary;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.submenu_item {
+  @include sm.submenu_header2;
+}
+
+.submenu_item_active {
+  @include sm.submenu_header2;
+  color: #ffffff;
+  background: linear-gradient(100.23deg, rgba(222, 99, 59, 0.1) 10.93%, rgba(232, 34, 61, 0.1) 88.04%);
+  border: 1px solid #E8223D;
+}
+
+.submenu_item2_active {
+  @include sm.submenu;
+  color: #ffffff;
+  background-color: $panel_subheader;
+  border: 1px solid $panel_subheader;
+}
+
+.icon_subheader {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+.bg_card_game {
+  background-color: $card_game;
+}
+
+.bg_card_detail {
+  background: linear-gradient(0deg, $card_game_blur 70%, transparent 100%);
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(70%, $card_game_blur),
+    to(transparent)
+  );
+  background: -o-linear-gradient(bottom, $card_game_blur 70%, transparent 100%);
+  background: linear-gradient(
+    0deg,
+    $card_game 0%,
+    $card_game 28%,
+    $card_game_blur 70%,
+    transparent 100%
+  );
+}
+
+.bg_card_sportbook {
+  background-color: #1A1123;
+}
+
+.bg_card_game_hover {
+  background: $bg_card_game_hover;
+}
+
+// card casino
+.bg_card_casino {
+  background-color: $secondary;
+}
+
+.bg_button_detail_casino {
+  background: rgba(35, 26, 45, 1) !important;
+
+  &:hover {
+    background: $background_button_primary_hover !important;
+  }
+}
+
+// Togel
+.bg_card_togel {
+  background: $secondary;
+  border-color: $secondary;
+}
+
+.bg_prize {
+  background-color: #231A2D;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.border_divide_togel {
+  border-top-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg_button_detail_togel {
+  background: $background_button_primary !important;
+  color: white;
+
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+
+  // transition: all;
+  // transition-property: color;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  // transition-duration: 200ms;
+  // transition-timing-function: ease-in-out;
+
+  &:hover {
+    background: $background_button_primary_hover !important;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+  }
+}
+
+// Product
+.card_provider {
+  background-color: $secondary;
+
+  &:active {
+    border-color: $primary;
+  }
+}
+.card_provider_active {
+  border-color: $primary;
+}
+
+// modal
+.bg_modal {
+  background-color: $background_modal;
+}
+.bg_modal_mobile {
+  background-color: $background_modal;
+}
+
+.bg_cont_bank {
+  background-color: $secondary;
+}
+
+.bg_register_banner_blur {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    #231a2d 82%,
+    #231a2d 100%
+  );
+}
+
+// button
+.button {
+}
+
+.button_primary {
+  background: linear-gradient(to right, $primary, #bc2135);
+  color: white;
+
+  &:hover {
+    background: linear-gradient(to right, #e42e47, #981627);
+  }
+}
+
+.button_secondary {
+  background: linear-gradient(180deg, #339cd7 0%, #1a57b3 100%) !important;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+
+  &:hover {
+    background: linear-gradient(180deg, #1f81b8 0%, #074096 100%) !important;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+// input
+.bg_input_primary {
+  background-color: $color3;
+}
+
+.input_primary {
+  background-color: $color3;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  height: 44px;
+  width: 100%;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+
+  &:hover {
+    border: 1px solid $primary;
+  }
+
+  &:focus-within {
+    border: 1px solid $primary;
+  }
+}
+
+.bg_listbox {
+  background-color: $secondary;
+  color: rgba(152, 167, 181, 1);
+}
+
+.bg_listbox_item_selected {
+  background-color: rgba(28, 30, 34, 0.3);
+  color: rgba(240, 242, 247, 1);
+}
+.bg_listbox_item {
+  &:hover {
+    background-color: rgba(28, 30, 34, 0.3);
+    color: rgba(240, 242, 247, 1);
+    cursor: pointer;
+  }
+}
+
+// footer
+.bg_footer_cms {
+  background: $secondary;
+}
+
+.bg_footer_cms_close {
+  background: $secondary;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to top, $color3, rgba(134, 134, 134, 0.15));
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+.bg_footer_section_1 {
+  background-color: $color3;
+}
+.bg_footer_section_2 {
+  background-color: $color4;
+}
+.bg_footer_section_3 {
+  background-color: $color3;
+}
+
+// searchgame - provider
+.input_search_game_header {
+  background-color: transparent;
+  border: 1px solid transparent;
+  &:hover,
+  &:focus-within {
+    border: 1px solid $primary;
+  }
+}
+
+.input_search_game_pages {
+  background-color: $color3;
+  border: 1px solid transparent;
+  &:hover,
+  &:focus-within {
+    border: 1px solid $primary;
+  }
+}
+
+.bg_search_game {
+  background-color: $color4;
+  border: 1px solid $border_secondary;
+}
+
+.bg_search_game {
+  background-color: $color4;
+  border: 1px solid $border_secondary;
+}
+
+.bg_search_game_item {
+  background-color: $color3;
+}
+
+.bg_search_game_item_play {
+  background: $background_button_primary !important;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+
+  &:hover {
+    background: $background_button_primary_hover !important;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+.bg_btn_filter_header {
+  background-color: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5);
+  &:hover {
+    color: white;
+  }
+}
+.bg_btn_filter_pages {
+  background-color: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.5);
+  &:hover {
+    color: white;
+  }
+}
+
+.bg_filter_item {
+  background-color: $color3;
+  color: rgba(152, 167, 181, 0.6);
+  @media screen and (min-width: 678px) {
+    &:hover {
+      background-color: $secondary;
+      color: rgba(152, 167, 181, 1);
+    }
+  }
+}
+
+.bg_filter_item_active {
+  background-color: $secondary;
+  color: rgba(152, 167, 181, 1);
+}
+
+//
+.bg_content_container {
+  background-color: $secondary;
+}
+.bg_content_container_mobile {
+  background-color: $secondary;
+}
+
+.bg_content_user_container {
+  background-color: $secondary;
+  @media screen and (max-width: 768px) {
+    background-color: $color4;
+  }
+}
+
+.bg_tab {
+  background: transparent;
+  color: rgba(152, 167, 181, 1);
+
+  &:hover {
+    background: linear-gradient(100.15deg, $primary 0%, #bc2135 100%);
+    color: white;
+  }
+}
+
+.bg_tab_mobile {
+  background: $secondary;
+  color: rgba(152, 167, 181, 1);
+
+  &:hover {
+    background: linear-gradient(100.15deg, #e42e47 0%, #981627 100%);
+    color: white;
+  }
+}
+
+.bg_tab_active {
+  background: linear-gradient(100.15deg, $primary 0%, #bc2135 100%);
+  color: $text_default;
+}
+
+.bg_cont_payment_header {
+  background-color: $secondary;
+}
+
+.bg_cont_payment_body {
+  background-color: $color4;
+  border: 1px solid $secondary;
+}
+
+.bg_user_menu {
+  background-color: $secondary;
+  border: 1px solid rgba(185, 214, 255, 0.1);
+}
+
+.cont_user_menu {
+  background-color: $secondary;
+  &:hover {
+    background-color: $color3;
+    color: white;
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.cont_user_menu_active {
+  background-color: $color3;
+}
+
+.bg_switch_lang {
+  background-color: $color4 !important;
+}
+
+.bg_switch_lang_list {
+  background-color: $color4 !important;
+  &:hover {
+    background-color: $secondary !important;
+  }
+}
+.bg_switch_lang_list_item {
+  background: $color4 !important;
+  color: rgba(152, 167, 181, 1);
+  &:hover {
+    background: linear-gradient(
+      100.15deg,
+      $primary 0%,
+      #bc2135 100%
+    ) !important;
+  }
+}
+.bg_switch_lang_list_item_active {
+  background: linear-gradient(100.15deg, $primary 0%, #bc2135 100%) !important;
+  color: white;
+}
+
+// referral
+.bg_referral_left_top {
+  background: $color3;
+}
+.bg_referral_left_bottom {
+  background: $secondary;
+}
+.bg_referral_code_link {
+  background-color: $secondary;
+}
+.bg_referral_right {
+  background: transparent;
+  @media screen and (min-width: 768px) {
+    background: $secondary;
+  }
+}
+
+// date range
+.bg_select_date_range {
+  background-color: $color3 !important;
+  border: 1px solid transparent;
+  &:hover,
+  &:focus-within {
+    border: 1px solid $primary;
+  }
+}
+.bg_list_date_range {
+  background-color: $color3 !important;
+  border: 2px solid $secondary;
+}
+.bg_list_date_range_picker {
+  background-color: $color3 !important;
+}
+
+// game
+.bg_game {
+  background-color: $secondary;
+}
+
+// global
+.bg_select {
+  background-color: $secondary;
+  color: white;
+}
+
+.bg_cont_web {
+  background: $secondary;
+}
+
+.styled-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,<svg stroke='currentColor' fill='darkgray' stroke-width='0' viewBox='0 0 1024 1024' class='w-2 h-2' height='1em' width='0.7em' xmlns='http://www.w3.org/2000/svg'><path d='M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z'></path></svg>");
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 12px;
+  border: none !important;
+  outline: none !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(211 242 255 / 0.4) !important;
+  opacity: 1; /* Firefox */
+}
+
+.react-tabs__tab:focus:after {
+  height: 0px !important;
+  background: transparent !important;
+}
+
+a {
+  color: #06c;
+}
+
+.disable-scroll {
+  overflow: hidden;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #001625 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.animateLogo {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+
+  animation-name: animateLogo;
+  animation-duration: 8s;
+  overflow: hidden;
+
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+}
+
+@keyframes animateLogo {
+  0% {
+    opacity: 0.5;
+    transform: translateX(-20rem) rotate(-125deg);
+    background-color: #ffffff47;
+  }
+  20% {
+    opacity: 0.3;
+    transform: translateX(-20rem) rotate(-125deg);
+    background-color: #ffffff47;
+  }
+  45% {
+    opacity: 0.1;
+    background-color: #ffffff47;
+  }
+  50% {
+    opacity: 0;
+    background-color: #ffffff47;
+  }
+  80% {
+    background-color: #ffffff47;
+    opacity: 0;
+  }
+  100% {
+    background-color: #ffffff47;
+    opacity: 0;
+    transform: translateX(20rem) rotate(-125deg);
+  }
+}
+
+.bg_row_per_page {
+  background-color: $color4;
+  color: $text_default;
+}
+
+// wallet / Deposit
+.card_bank {
+  background-color: rgb(26 169 231 / 0.25);
+  border:1px solid #1AA9E7;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(211, 242, 255 / 0.1);
+    border:1px solid rgb(211, 242, 255 / 0.15);
+  }
+}
+.card_bank.active {
+  background-color: #d3f2ff0a;
+  border:1px solid #d3f2ff0a;
+}

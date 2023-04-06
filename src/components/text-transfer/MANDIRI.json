@@ -1,0 +1,57 @@
+{
+  "name": "MANDIRI",
+  "data": [
+    {
+      "title": "MANDIRI Livin By Mandiri --- !!! ---",
+      "type": "M-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login di Aplikasi Livin By Mandiri",
+        "Pilih Menu Transfer > Ke Rek Mandiri",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan MPIN Mandir",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "MANDIRI I-BANKING --- !!! ---",
+      "type": "I-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login Internet Banking",
+        "Pilih Menu Transfer > Ke Rek Mandiri",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan Angka 1 Untuk Masuk Ke Mode Appli 1",
+        "Masukan Kode Challenge 8 Digit Ke Token Mandiri, Dan Tunggu Sampai Muncul Kode Baru",
+        "Masukan Kode Terbaru Pada Token Ke Kolom MASUKAN PIN MANDIRI",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "MANDIRI ATM --- !!! ---",
+      "type": "ATM",
+      "rekening": 147852369,
+      "step": [
+        "Masukan Kartu ATM dan PIN Anda.",
+        "Pilih Menu Transaksi Lainnya > Transfer > Ke Rek Mandiri",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "008",
+      "massage": "*Kode bank di butuhkan jika Bank Lain transfer ke Bank Mandiri"
+    }
+  ]
+}

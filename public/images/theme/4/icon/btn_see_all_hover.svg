@@ -1,0 +1,25 @@
+<svg width="78" height="29" viewBox="0 0 78 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_370_3128)">
+<path d="M-0.000481064 5.40009C-0.00048505 2.63866 2.23809 0.400087 4.99952 0.400087L72.9001 0.400083C75.6616 0.400083 77.9001 2.63866 77.9001 5.40008L77.9001 23.8001C77.9001 26.5615 75.6616 28.8001 72.9001 28.8001L4.99954 28.8001C2.23812 28.8001 -0.000450517 26.5615 -0.000454503 23.8001L-0.000467783 14.6001L-0.000481064 5.40009Z" fill="url(#paint0_linear_370_3128)" fill-opacity="0.9"/>
+<path d="M4.99952 0.900087L72.9001 0.900083C75.3854 0.900083 77.4001 2.9148 77.4001 5.40008L77.4001 23.8001C77.4001 26.2854 75.3854 28.3001 72.9001 28.3001L4.99954 28.3001C2.51426 28.3001 0.499549 26.2854 0.499546 23.8001L0.499532 14.6001L0.499519 5.40009C0.499515 2.91481 2.51423 0.900087 4.99952 0.900087Z" stroke="url(#paint1_linear_370_3128)" stroke-opacity="0.75"/>
+</g>
+<defs>
+<filter id="filter0_b_370_3128" x="-5.00049" y="-4.59991" width="87.9004" height="38.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_370_3128"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_370_3128" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_370_3128" x1="1.70192" y1="36.2117" x2="83.1961" y2="16.1007" gradientUnits="userSpaceOnUse">
+<stop stop-color="#18E0D4"/>
+<stop offset="0.279507" stop-color="#1880E0" stop-opacity="0.22"/>
+<stop offset="0.498284" stop-color="#18BCE0" stop-opacity="0"/>
+<stop offset="0.725028" stop-color="#1880E0" stop-opacity="0"/>
+<stop offset="1" stop-color="#18E0D4" stop-opacity="0.91"/>
+</linearGradient>
+<linearGradient id="paint1_linear_370_3128" x1="36" y1="-6.14854e-05" x2="44.2194" y2="26.4453" gradientUnits="userSpaceOnUse">
+<stop offset="0.0001" stop-color="#6DF6FF"/>
+<stop offset="1" stop-color="#59BBF1" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

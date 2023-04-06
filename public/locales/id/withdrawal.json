@@ -1,0 +1,11 @@
+{
+  "text-withdrawal-header": "Withdrawal Saldo Member",
+  "text-withdrawal-history-header": "Withdrawal History",
+  "button-withdrawal": "Kirim Withdrawal",
+  "button-view": "action",
+  "withdrawal-confirm-text": "Confirm Details",
+  "text-submit-request": "Submit Request",
+  "withdrawal-submitted-text": "Withdrawal Submitted!",
+  "withdrawal-information-text": "Withdrawal process will take 3-5 working days",
+  "text-view-request": "View Withdraw History"
+}

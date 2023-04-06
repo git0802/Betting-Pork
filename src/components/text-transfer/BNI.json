@@ -1,0 +1,58 @@
+{
+  "name": "BNI",
+  "data": [
+    {
+      "title": "BNI M-BANKING --- !!! ---",
+      "type": "M-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login ke BNI Mobile",
+        "Pilih Menu Transfer > Antar BNI",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan Password BNI",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "BNI I-BANKING --- !!! ---",
+      "type": "I-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login Internet Banking",
+        "Pilih Menu Transaksi > Transfer Antar BNI",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Pilih Jenis Token Yang Kamu Pakai, BNI E-Secure Atau BNI M-Secure",
+        "Untuk E-Secure, Kamu Perlu Memasukkan Nomor PIN dan Menekan Angka 2 Yang Kemudian Diikuti Dengan Tombol Angka Yang Sesuai Dengan Kode Challenge. Selanjutnya, Layar Akan Memperlihatkan Kode Respons",
+        "Untuk M-Secure, Kamu Hanya Perlu Menjalankan Aplikasi M-Secure. Setelah itu, Masukkan MPIN, Generate OTP, dan Layar Akan Menampilkan Kode Respons",
+        "Masukan Kode Respon Tersebut Ke Dalam Kolom E-Secure Response / M-Secure Response",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "BNI ATM --- !!! ---",
+      "type": "ATM",
+      "rekening": 147852369,
+      "step": [
+        "Masukan Kartu ATM dan PIN Anda",
+        "Pilih Menu Menu Lainnya > Transfer",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "009",
+      "massage": "*Kode bank di butuhkan jika Bank Lain transfer ke Bank BNI"
+    }
+  ]
+}

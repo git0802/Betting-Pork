@@ -1,0 +1,22 @@
+{
+  "name": "GOPAY",
+  "data": [
+    {
+      "title": "GOPAY --- !!! ---",
+      "type": "E-WALLET",
+      "rekening": 147852369,
+      "step": [
+        "Login Applikasi GOPAY",
+        "Pilih Menu Bayar",
+        "Masukan No HP Tujuan/Pilih Dari Kontak Anda ($rekening)",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Masukan PIN GOPAY",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "DANAMON",
+  "data": [
+    {
+      "title": "DANAMON E-Banking By D-Bank PRO --- !!! ---",
+      "type": "M-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login di Aplikasi D-Bank PRO",
+        "Pilih Menu Transfer",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan MPIN Danamon",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "DANAMON ATM --- !!! ---",
+      "type": "ATM",
+      "rekening": 147852369,
+      "step": [
+        "Masukan Kartu ATM dan PIN Anda",
+        "Pilih Menu Transfer > Ke Rek Danamon",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "011",
+      "massage": "*Kode bank di butuhkan jika Bank Lain transfer ke Bank Danamon"
+    }
+  ]
+}

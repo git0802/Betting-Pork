@@ -1,0 +1,97 @@
+// @import "./themes/1/color";
+
+@mixin submenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 11px 16px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  color: rgba(255, 255, 255, 0.4);
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  &:focus {
+    color: #ffffff;
+  }
+
+  &:last-child {
+    padding-right: 0px;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+@mixin submenu_header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  color: rgba(255, 255, 255, 0.4);
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  &:focus {
+    color: #ffffff;
+  }
+
+  &:last-child {
+    padding-right: 0px;
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+@mixin submenu_header4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px 16px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+
+  &:last-child {
+    padding-right: 0px;
+  }
+}

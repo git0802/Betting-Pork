@@ -1,0 +1,23 @@
+{
+  "name": "LINKAJA",
+  "data": [
+    {
+      "title": "LINKAJA --- !!! ---",
+      "type": "E-WALLET",
+      "rekening": 147852369,
+      "step": [
+        "Login Applikasi LINKAJA",
+        "Pilih Menu Kirim Uang",
+        "Pilih Menu No HP",
+        "Masukan No HP Tujuan/Pilih Dari Kontak Anda ($rekening)",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Masukan PIN LINKAJA",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "BCA",
+  "data": [
+    {
+      "title": "BCA M-BANKING --- !!! ---",
+      "type": "M-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login Mobile Banking",
+        "Pilih Menu M-Transfer > Transfer Ke Rek BCA",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan PIN M-Banking",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "BCA I-BANKING --- !!! ---",
+      "type": "I-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login Internet Banking",
+        "Pilih Menu Transfer Dana > Transfer Ke Rek BCA",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan Respon KeyBCA Appli 2",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "BCA ATM --- !!! ---",
+      "type": "ATM",
+      "rekening": 147852369,
+      "step": [
+        "Masukan Kartu ATM dan PIN Anda",
+        "Pilih Menu Transaksi Lainnya > Transfer > Ke Rek BCA",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "014",
+      "massage": "*Kode bank di butuhkan jika Bank Lain transfer ke Bank BCA"
+    }
+  ]
+}

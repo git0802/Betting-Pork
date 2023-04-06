@@ -1,0 +1,67 @@
+
+$primary: #833BDE;
+
+//  #2f2539 rgba(47, 37, 57, 1) 
+$secondary: rgb(47, 37, 57);
+
+// 231A2D
+// 1B1324
+// 1D1329
+// #1A1123
+$color3: #1B1324;
+
+
+$color4: #231A2D;
+
+$text_default: rgba(232,246,253,1);
+
+$btn_color_1: white;
+// F6AB0D = rgba(246,171,13,1)
+$btn_color_2: rgba(246,171,13,1);
+
+:export {
+    primaryColor: $primary;
+}
+
+$swiper_pagination_active_color : $primary;
+
+$background_button_primary : linear-gradient(100.23deg, #833BDE 10.93%, #AA3BDE 88.04%);
+$background_button_primary_hover : linear-gradient(100.23deg, #7433C6 10.93%, #8E22C0 88.04%);
+
+$background_button_secondary : linear-gradient(100.23deg, #DE633B 10.93%, #E8223D 88.04%);
+$background_button_secondary_hover : linear-gradient(100.23deg, #D65227 10.93%, #CB0B25 88.04%);
+
+$panel_header : $secondary;
+$panel_subheader : $color3;
+$background_web : #231A2D;
+$background_modal : $color4;
+
+$button_menu_active: $secondary;
+
+$border : transparent;
+$border_hover : $primary;
+$border_error : $primary;
+
+$border_secondary : rgba(185, 214, 255, 0.1); 
+
+$card_game : rgba(47, 37, 57, 1);
+$bg_card_game_hover : linear-gradient(100.23deg, rgba(131, 59, 222, 0.8) 10.93%, rgba(170, 59, 222, 0.8) 88.04%);
+$card_game_blur : rgba(47, 37, 57, 1);
+
+
+$rdrSelected: $primary;
+$rdrDayNumber: #fff;
+$rdrDayDisabled_background: $color4;
+$rdrDayDisabled_color: $secondary;
+$rdrDayActive_background: #1aa9e7;
+$rdrDayDisabled: $color4;
+$rdrDayPassive: $color4;
+$rdrMonthAndYearPickers_color: #fff;
+$rdrMonthAndYearPickers_background: $secondary;
+
+$scrollbar_track: $color4;
+$scrollbar_thumb: $secondary;
+
+:export  {
+    swiper_pagination_active_color: $swiper_pagination_active_color;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "OVO",
+  "data": [
+    {
+      "title": "OVO --- !!! ---",
+      "type": "E-WALLET",
+      "rekening": 147852369,
+      "step": [
+        "Login Applikasi OVO",
+        "Pilih Menu Transfer > Ke Sesama OVO",
+        "Masukan No HP Tujuan/Pilih Dari Kontak Anda ($rekening)",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    }
+  ]
+}

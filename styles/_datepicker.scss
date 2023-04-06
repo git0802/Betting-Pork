@@ -1,0 +1,68 @@
+@import "./themes/4/color";
+
+.rdrCalendarWrapper {
+  width: 100%;
+}
+
+.rdrDayEndOfMonth .rdrInRange,
+.rdrDayEndOfMonth .rdrStartEdge,
+.rdrDayEndOfWeek .rdrInRange,
+.rdrDayEndOfWeek .rdrStartEdge {
+  border-radius: 0px !important;
+}
+
+.rdrDayStartOfMonth .rdrInRange,
+.rdrDayStartOfMonth .rdrEndEdge,
+.rdrDayStartOfWeek .rdrInRange,
+.rdrDayStartOfWeek .rdrEndEdge {
+  border-radius: 0px !important;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+  color: #ffffff !important;
+}
+.rdrSelected,
+.rdrInRange,
+.rdrStartEdge,
+.rdrEndEdge {
+  color: $rdrSelected !important;
+}
+.rdrDayNumber span {
+  color: $rdrDayNumber !important;
+}
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrDayDisabled {
+  background: $rdrDayDisabled_background !important;
+  color: $rdrDayDisabled_color !important;
+}
+
+.rdrDayActive {
+  background: $rdrDayActive_background !important;
+  border-radius: 50%;
+}
+
+.rdrDayDisabled .rdrDayNumber span {
+  color: $rdrDayDisabled !important;
+}
+.rdrDayPassive .rdrDayNumber span {
+  color: $rdrDayPassive !important;
+}
+
+.rdrMonthAndYearPickers select,
+.rdrMonthAndYearPickers select:hover {
+  color: $rdrMonthAndYearPickers_color !important;
+  background: $rdrMonthAndYearPickers_background !important;
+  background-color: $rdrMonthAndYearPickers_background !important;
+}
+
+.rdrMonthName {
+  display: none !important;
+}
+
+.rdrNextPrevButton {
+  background: none !important;
+}

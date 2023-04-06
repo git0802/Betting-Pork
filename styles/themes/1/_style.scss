@@ -1,0 +1,740 @@
+@use "../../submenuitem" as sm;
+@import "./color";
+
+body {
+  font-family: "outfit";
+  background-color: #07243a;
+}
+
+.background_web {
+  background: linear-gradient(180deg, #276c8a, rgba(39, 108, 139, 0));
+}
+
+.background_header {
+  background: $panel_header;
+}
+
+.background_panel {
+  background: $panel_subheader;
+}
+
+.background_subheader {
+  background: $panel_subheader;
+  border: 0px solid rgba(185, 214, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.submenu_item {
+  @include sm.submenu;
+}
+
+.submenu_item_active {
+  @include sm.submenu;
+  color: #ffffff;
+  background-color: rgb(56, 116, 144);
+  border: 1px solid transparent;
+}
+
+.submenu_icon {
+  color: rgba(255,255,255,1);
+}
+.submenu_icon_active {
+  color: rgba(255,255,255,1);
+}
+
+.submenu_item2_active {
+  @include sm.submenu;
+  color: #ffffff;
+  background-color: $panel_subheader;
+  border: 1px solid $panel_subheader;
+}
+
+.icon_subheader {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
+.bg_card_game {
+  background-color: $card_game;
+}
+
+.bg_card_detail {
+  background: linear-gradient(0deg, $card_game_blur 70%, transparent 100%);
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(70%, $card_game_blur),
+    to(transparent)
+  );
+  background: -o-linear-gradient(bottom, $card_game_blur 70%, transparent 100%);
+  background: linear-gradient(
+    0deg,
+    $card_game 0%,
+    $card_game 28%,
+    $card_game_blur 70%,
+    transparent 100%
+  );
+}
+.bg_card_detail_with_rtp {
+  background: linear-gradient(0deg, $card_game_blur 70%, transparent 100%);
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(70%, $card_game_blur),
+    to(transparent)
+  );
+  background: -o-linear-gradient(bottom, $card_game_blur 70%, transparent 100%);
+  background: linear-gradient(
+    0deg,
+    $card_game 0%,
+    $card_game 38%,
+    $card_game_blur 70%,
+    transparent 100%
+  );
+}
+
+.bg_card_sportbook {
+  background-color: #001625;
+}
+
+.bg_card_game_hover {
+  background: $bg_card_game_hover;
+}
+
+// card casino
+.bg_card_casino {
+  background-color: #0b2c44;
+}
+
+.bg_button_detail_casino {
+  background-color: #051d2f !important;
+  color: white;
+  &:hover {
+    background-color: rgb(26, 169, 231) !important;
+  }
+  &:active {
+    background-color: rgb(26, 169, 231, 0.8);
+  }
+}
+
+// Togel
+.bg_card_togel {
+  background: #0b2c44;
+  border-color: #0b2c44;
+  @media screen and (max-width: 678px) {
+    &:hover {
+      background-color: #17374d;
+    }
+  }
+}
+
+.bg_prize {
+  background-color: #07243a;
+  border-color: #d3f2ff33;
+}
+
+.border_divide_togel {
+  border-color: #2c516a;
+}
+
+.bg_button_detail_togel {
+  background-color: rgb(26, 169, 231, 1);
+  color: white;
+
+  &:hover {
+    background-color: #0086bf;
+  }
+}
+
+.divide_price {
+  border-top: 1px;
+  border-bottom:1px;
+  border-style: solid;
+  border-color: #2c516a;
+}
+
+.divide_price div:first-child {
+  border-right: 1px solid #2c516a;
+}
+
+// Product
+
+.card_provider {
+  background-color: #092e49;
+  &:active {
+    border-color: #1aa9e7;
+  }
+}
+.card_provider_active {
+  border-color: #1aa9e7;
+}
+
+// modal
+.bg_modal {
+  background-color: rgb(12, 45, 70);
+}
+.bg_modal_mobile {
+  background-image: radial-gradient(
+    109.2% 37.18% at 50% 82%,
+    rgb(39, 97, 140) 0%,
+    rgb(9, 46, 73) 100%
+  );
+  border: 1px solid rgba(34, 55, 78, 0.45);
+  border-radius: 8px;
+}
+
+.bg_cont_bank {
+  background-color: #103c5c;
+}
+
+.bg_register_banner_blur {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    #000000 82%,
+    #000000 100%
+  );
+}
+
+// button
+.button_primary {
+  background: linear-gradient(to right, #ff3d57, #bc2135);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+
+  &:hover {
+    background: linear-gradient(to right, #e42e47, #981627);
+  }
+
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+// input
+.bg_input_primary {
+  background-color: rgb(0, 22, 37);
+}
+
+.input_primary {
+  background-color: rgb(0, 22, 37);
+  border-radius: 4px;
+  border: 1px solid rgb(4, 32, 45);
+  cursor: pointer;
+  height: 44px;
+  width: 100%;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+
+  &:hover {
+    border: 1px solid rgb(0, 153, 255);
+  }
+
+  &:focus-within {
+    border: 1px solid rgb(0, 153, 255);
+  }
+}
+
+.bg_listbox {
+  background-color: rgb(34, 55, 78, 1);
+}
+
+.bg_listbox_selected {
+  background-color: rgb(26, 169, 231);
+  color: white;
+}
+
+.bg_listbox_item {
+  &:hover {
+    background-color: rgb(26, 169, 231);
+    color: white;
+    cursor: pointer;
+  }
+}
+
+// footer
+.bg_footer_cms {
+  background: #092e49;
+}
+
+.bg_footer_cms_close {
+  background: #092e49;
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to top, #0a273e, rgba(15, 33, 46, 0));
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+}
+
+.bg_footer_section_1 {
+  @media screen and (max-width: 768px) {
+    background-color: #001625;
+  }
+
+  background-color: #051d2f;
+}
+.bg_footer_section_2 {
+  @media screen and (max-width: 768px) {
+    background-color: #0a273e;
+  }
+
+  background-color: #0a273e;
+}
+.bg_footer_section_3 {
+  @media screen and (max-width: 768px) {
+    background-color: #01111d;
+  }
+  @media screen and (min-width: 769px) {
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: #2c516a;
+  }
+  background-color: #07243a;
+}
+
+// searchgame - provider
+.input_search_game_header {
+  background-color: rgba(255,255,255, 0.05);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  height: 44px;
+  width: 330px;
+  &:hover {
+    border: 1px solid #6ce5ff;
+  }
+  &:focus-within {
+    border: 1px solid #6ce5ff;
+  }
+}
+
+.input_search_game_pages {
+  background-color: rgba(255,255,255, 0.05);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  &:hover,
+  &:focus-within {
+    border: 1px solid #6ce5ff;
+  }
+}
+
+.bg_search_game {
+  background-color: #092e49;
+  border:1px solid rgba(255,255,255,0.05);
+}
+
+.bg_search_game_item {
+  background-color: #07243a;
+}
+
+.bg_search_game_item_play {
+  background-color: #1aa9e7;
+}
+
+.bg_btn_filter_header {
+  background-color: rgba(211,242,255,0.05);
+  color: rgba(255, 255, 255, 0.5);
+  &:hover {
+    background-color: rgba(211,242,255,0.15);
+    color: rgba(255,255,255);
+  }
+}
+
+.bg_btn_filter_pages {
+  background-color: rgba(255,255,255,0.05);
+  color: rgba(255, 255, 255, 0.2);
+  &:hover {
+    background-color: rgba(255,255,255,0.15);
+    color: rgba(255,255,255);
+  }
+}
+
+.bg_filter_item {
+  background-color: #07243a;
+  color: rgba(211, 242, 255, 0.6);
+
+  @media screen and (min-width: 678px) {
+    &:hover {
+      background-color: #d3f2ff33;
+      color: white;
+    }
+  }
+}
+
+.bg_filter_item_active {
+  background-color: #d3f2ff33;
+  color: white;
+
+  &:hover {
+    @media screen and (min-width: 769px) {
+      background-color: #d3f2ff33;
+      color: white;
+    }
+  }
+}
+
+.bg_content_container {
+  background-color: #0c2d46;
+}
+.bg_content_container_mobile {
+  background-color: $color3;
+}
+
+.bg_content_user_container {
+  background-color: #07243a;
+  @media screen and (min-width: 1024px) {
+    background-color: rgb(11, 44, 68);
+  }
+}
+
+.bg_tab {
+  background: transparent;
+  color: rgba(211, 242, 255, 0.4);
+  &:hover {
+    background: #1aa9e7;
+    color: white;
+  }
+}
+
+.bg_tab_mobile {
+  background: #2C5D76;
+  border:1px solid rgba(211, 242, 255, 0.2);
+  color: white;
+
+  &:hover {
+    background: #1AA9E7;
+  }
+}
+
+.bg_tab_active {
+  background: #1aa9e7;
+  color: white;
+}
+
+.bg_cont_payment_header {
+  @media screen and (max-width: 678px) {
+    background-color: rgba(0, 22, 37, 1);
+  }
+  @media screen and (min-width: 679px) {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.bg_cont_payment_body {
+  @media screen and (max-width: 678px) {
+    background-color: rgba(0, 22, 37, 1);
+  }
+  @media screen and (min-width: 679px) {
+    background-color: rgba(9, 46, 73, 1)
+  }
+}
+
+.bg_user_menu {
+  background-color: #092e49;
+  border: 1px solid #092e49;
+  // divide-y : #184A61;
+}
+
+.cont_user_menu {
+  &:hover {
+    background-color: #001e34;
+    color: white;
+  }
+}
+.cont_user_menu_active {
+  background-color: #001e34;
+}
+
+.bg_select {
+  background-color: #0b2c44 !important;
+  color: white;
+}
+.bg_select_list {
+  background-color: #0b2130 !important;
+  &:hover {
+    background-color: #0b2c44 !important;
+  }
+}
+.bg_select_list_item {
+  background-color: #0b2130 !important;
+  color: #d3f2ff99;
+  &:hover {
+    background-color: rgba(26, 169, 231, 1) !important;
+    color: white;
+  }
+}
+.bg_select_list_item_active {
+  background-color: rgba(26, 169, 231, 1) !important;
+  color: white;
+}
+
+.bg_switch_lang {
+  background-color: #d3f2ff0d !important;
+  @media screen and (min-width: 1280px) {
+    background-color: #0b2c44 !important;
+  }
+}
+
+.bg_switch_lang_list {
+  background-color: #0b2130 !important;
+  @media screen and (min-width: 1280px) {
+    background-color: #0b2c44;
+  }
+}
+.bg_switch_lang_list_item {
+  background-color: #0b2130 !important;
+  color: #d3f2ff99;
+}
+.bg_switch_lang_list_item_active {
+  background-color: rgba(26, 169, 231, 1) !important;
+  color: white;
+}
+
+.footer_list_sosmed {
+  // background-color: #D3F2FF0D;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 200ms;
+  .footer_icon_sosmed {
+    transition: all ease-in-out 200ms;
+    color:rgba(211,242,255);
+  }
+
+  &.whatsapp {
+    background: linear-gradient(226.97deg, #5BD066 9.27%, #27B43E 100%), rgba(255, 255, 255, 0.05);
+  }
+  &.skype {
+    background: linear-gradient(129.81deg, #297AC0 14.9%, #48B0F9 84.22%);
+  }
+  &.telegram {
+    background: linear-gradient(180deg, #37BBFE 0%, #007DBB 100%);
+  }
+  &.line {
+    background: #00B900;
+  }
+  &.facebook {
+    background: linear-gradient(180deg, #18ACFE 0%, #0163E0 99.7%);
+  }
+  &.twitter {
+    background: #1DA1F2;
+  }
+  &.instagram {
+    background: radial-gradient(137.5% 29.41% at -5.36% 3.57%, #406ADC 15.67%, #6A45BE 46.78%, rgba(106, 69, 190, 0) 100%), radial-gradient(73.21% 73.21% at 32.14% 103.57%, #E0E8B7 0%, #FB8A2E 44.47%, #E2425C 71.47%, rgba(226, 66, 92, 0) 100%), radial-gradient(75% 75% at 35.71% 75%, #B13589 0%, #C62F94 79.31%, #8A3AC8 100%);
+  }
+  &.youtube {
+    background: #FC0D1B;
+  }
+  &.tiktok {
+    background: #000000;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 48px;
+    height: 48px;
+    .footer_icon_sosmed {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    width: 48px;
+    height: 48px;
+    .footer_icon_sosmed {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &:hover{
+    transform: translateY(-4px);
+  }
+}
+
+.bg_referral_left_top {
+  background: rgb(12, 45, 70) !important;
+}
+.bg_referral_left_bottom {
+  background: rgb(0, 22, 37);
+  @media screen and (min-width: 768px) {
+    background: #07243a;
+  }
+}
+.bg_referral_code_link {
+  background-color: #0a2438;
+}
+.bg_referral_right {
+  background: transparent;
+  @media screen and (min-width: 768px) {
+    background: rgb(12, 45, 70);
+  }
+}
+
+// date range
+.bg_select_date_range {
+  background-color: #001625 !important;
+  border: 1px solid transparent;
+  &:hover,
+  &:focus-within {
+    border: 1px solid rgb(0, 153, 255);
+  }
+}
+.bg_list_date_range {
+  background-color: rgb(11, 44, 68) !important;
+  border: 2px solid #2c516a;
+}
+.bg_list_date_range_picker {
+  background-color: rgb(11, 44, 68) !important;
+}
+
+// game
+.bg_game {
+  background-color: #051d2f;
+}
+
+// global
+.bg_cont_web {
+  background: rgb(12, 45, 70);
+}
+
+.slider_label_total {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  color: white;
+  height: 30px;
+  font-weight: 400;
+  padding: 5px 12px;
+  border-radius: 9999px;
+}
+
+.styled-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,<svg stroke='currentColor' fill='darkgray' stroke-width='0' viewBox='0 0 1024 1024' class='w-2 h-2' height='1em' width='0.7em' xmlns='http://www.w3.org/2000/svg'><path d='M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z'></path></svg>");
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 12px;
+  border: none !important;
+  outline: none !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(211 242 255 / 0.4) !important;
+  opacity: 1; /* Firefox */
+}
+
+.react-tabs__tab:focus:after {
+  height: 0px !important;
+  background: transparent !important;
+}
+
+a {
+  color: #06c;
+}
+
+.disable-scroll {
+  overflow: hidden;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #001625 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.animateLogo {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+
+  animation-name: animateLogo;
+  animation-duration: 8s;
+  overflow: hidden;
+
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: infinite;
+}
+
+@keyframes animateLogo {
+  0% {
+    opacity: 0.5;
+    transform: translateX(-20rem) rotate(-125deg);
+    background-color: #ffffff47;
+  }
+  20% {
+    opacity: 0.3;
+    transform: translateX(-20rem) rotate(-125deg);
+    background-color: #ffffff47;
+  }
+  45% {
+    opacity: 0.1;
+    background-color: #ffffff47;
+  }
+  50% {
+    opacity: 0;
+    background-color: #ffffff47;
+  }
+  80% {
+    background-color: #ffffff47;
+    opacity: 0;
+  }
+  100% {
+    background-color: #ffffff47;
+    opacity: 0;
+    transform: translateX(20rem) rotate(-125deg);
+  }
+}
+
+.bg_row_per_page {
+  background-color: #092e49;
+  color: white;
+}
+
+// wallet / Deposit
+.card_bank {
+  background-color: rgb(26 169 231 / 0.25);
+  border: 1px solid transparent;
+  cursor: pointer;
+  @media screen and (min-width:769px) {
+    &:hover {
+      border: 1px solid #1aa9e7;
+    }
+  }
+}
+.card_bank.active {
+  background-color: rgb(26 169 231 / 0.25);
+  border: 1px solid #1aa9e7;
+}
+
+.container-rtp-live {
+  margin-top: 1.25rem;
+
+  @media (min-width: 1064px) {
+    margin-top: 2.5rem;
+  }
+}

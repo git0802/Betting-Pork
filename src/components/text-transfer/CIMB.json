@@ -1,0 +1,55 @@
+{
+  "name": "CIMB",
+  "data": [
+    {
+      "title": "CIMB NIAGA M-Banking --- !!! ---",
+      "type": "M-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login di Aplikasi OCTO Mobile",
+        "Pilih Menu Transfer",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Masukan MPIN CIMB NIAGA",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "CIMB NIAGA I-BANKING --- !!! ---",
+      "type": "I-BANKING",
+      "rekening": 147852369,
+      "step": [
+        "Login Internet Banking",
+        "Pilih Menu Transfer",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening) Pada Kolom Beneficiary Account",
+        "Masukan MPIN",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "",
+      "massage": ""
+    },
+    {
+      "title": "CIMB NIAGA ATM --- !!! ---",
+      "type": "ATM",
+      "rekening": 147852369,
+      "step": [
+        "Masukan Kartu ATM dan PIN Anda",
+        "Pilih Menu Transfer",
+        "Masukan Nominal Yang Akan Ditransfer Minimum Rp. 5.000,-",
+        "Masukan No Rekening Tujuan ($rekening)",
+        "Periksa Kembali Data yang Dimasukan. Jika Benar, Pilih Kirim",
+        "Transaksi Berhasil",
+        "Simpan Bukti Transferan Anda"
+      ],
+      "kode": "022",
+      "massage": "*Kode bank di butuhkan jika Bank Lain transfer ke Bank CIMB"
+    }
+  ]
+}
